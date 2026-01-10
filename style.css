@@ -1,0 +1,232 @@
+#mainnavbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: solid 1px black;
+  background-color: #ffc017;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+#mainnavbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  text-transform: capitalize;
+  align-items: center;
+}
+
+#mainnavbar div img {
+  max-width: 200px;
+}
+.allineamento-centro {
+  display: flex;
+  align-items: center;
+}
+
+.blackroundedbutton {
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+}
+#first-section {
+  background-color: #ffc017;
+  display: flex;
+  justify-content: space-between;
+}
+.main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem;
+}
+.main-title p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 550;
+}
+.main-paragraph {
+  font-size: 1.5rem;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.start-button {
+  width: 200px;
+}
+.svg {
+  overflow: hidden;
+}
+
+#second-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 6rem;
+  justify-content: center;
+  width: 1000px;
+  gap: 1rem;
+}
+.cards {
+  width: 28%;
+
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+#dxt-part-of-cards {
+  display: flex;
+  margin: 0.5rem 0;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+}
+#dxt-part-of-cards img {
+  border-radius: 60px;
+  width: 20px;
+  height: 20px;
+}
+.namewriter {
+  font-size: xx-small;
+
+  font-weight: bold;
+}
+.cards h6 {
+  margin: 0;
+  font-weight: bold;
+  font-size: small;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#dxt-part-of-cards section {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.numberofcards {
+  font-size: 2rem;
+  color: lightgrey;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.datacards {
+  font-size: x-small;
+  color: lightgray;
+}
+#third-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+#colonnasinistra {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#colonnasinistra li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+}
+
+#colonnasinistra span {
+  display: flex;
+  flex-direction: column;
+}
+
+#autorearticolo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#autorearticolo img {
+  border-radius: 60px;
+  width: 20px;
+  height: 20px;
+}
+
+#colonnasinistra h5 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#colonnasinistra aside {
+  color: gray;
+}
+.ultimariga {
+  color: gray;
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.badge {
+  display: flex;
+  gap: 0.5rem;
+}
+.tag {
+  background-color: rgb(230, 229, 229);
+  border-radius: 20px;
+  padding: 2px 5px;
+  text-transform: capitalize;
+}
+.fotoarticolo {
+  padding: 1rem;
+  width: 30%;
+}
+#colonnadestra {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: sticky;
+  top: 0;
+  height: fit-content;
+}
+
+.listainfernale {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0;
+}
+
+.btnlist li button {
+  background-color: white;
+  border: solid 1px lightgray;
+  padding: 5px 12px;
+  border-radius: 5px;
+  color: darkgrey;
+  font-size: small;
+  text-transform: capitalize;
+}
+
+.listainfernale li a {
+  text-decoration: none;
+  color: grey;
+  padding: 0.75rem;
+}
+
+#colonnadestra h3 {
+  font-size: medium;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.break {
+  border: 1px solid lightgrey;
+  width: 80%;
+}
